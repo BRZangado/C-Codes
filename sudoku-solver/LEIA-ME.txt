@@ -1,0 +1,14 @@
+PROGRAMA PARA RESOLVER SUDOKUS
+EXEMPLO DE ENTRADA:
+
+5 3 X X 7 X X X X
+6 X X 1 9 5 X X X 
+X 9 8 X X X X 6 X 
+8 X X X 6 X X X 3 
+4 X X 8 X 3 X X 1 
+7 X X X 2 X X X 6 
+X 6 X X X X 2 8 X 
+X X X 4 1 9 X X 5 
+X X X X 8 X X 7 9
+
+Os "x" são os espaços em brancos que deverão ser preenchidos pelo programa.

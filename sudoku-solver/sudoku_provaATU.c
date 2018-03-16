@@ -111,19 +111,20 @@ int main(){
 
 	int sudoku[9][9];
 	bool resolvido = false;
-    int i, j;
+    	int i, j;
 	char t;
 
 
 	for(i=0; i<9; i++){
-        for(j=0; j<9; j++){
-                scanf(" %c", &t);
+        	for(j=0; j<9; j++){
+                	
+			scanf(" %c", &t);
 
-                t -= 48;
-                sudoku[i][j] = t;
-                if(sudoku[i][j]==40){
+                	t -= 48;
+                	sudoku[i][j] = t;
+                	if(sudoku[i][j]==40){
 
-                        sudoku[i][j] = 0;
+                        	sudoku[i][j] = 0;
 
                 }
         }
@@ -141,7 +142,7 @@ int main(){
         imprimir(sudoku);
 	}
 	else{
-        printf("Nenhuma solução econtrada\n");
+        printf("Nenhuma soluÃ§Ã£o econtrada\n");
 	}
 
 	return 0;

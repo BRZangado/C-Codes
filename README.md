@@ -1,2 +1,2 @@
 # C-Codes
-Trabalhos feito em C
+Trabalhos feitos em C
